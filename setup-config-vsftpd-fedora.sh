@@ -64,7 +64,7 @@ firewall-cmd --zone=public --add-port=20/tcp
 firewall-cmd --add-service=ftp
 
 firewall-cmd --permanent --zone=public --add-port=20/tcp
-firewall-cmd ---permanent -add-service=ftp
+firewall-cmd --permanent --add-service=ftp
 firewall-cmd --list-all
 
 #If you want it to be permanent then add "--permanent" to first two command
